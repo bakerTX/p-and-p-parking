@@ -1,6 +1,6 @@
 # P&P Parking Site
 
-Built with [Hugo](https://gohugo.io/) as a static site generator and [Gulp](https://gulpjs.com/) + [Webpack](https://webpack.js.org/).
+Built with [Victor Hugo](https://github.com/netlify/victor-hugo) starter kit, [Hugo](https://gohugo.io/) as a static site generator and [Gulp](https://gulpjs.com/) + [Webpack](https://webpack.js.org/).
 
 Setup to use [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/) for CSS and JavaScript compiling/transpiling.
 
