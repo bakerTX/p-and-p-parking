@@ -2,3 +2,8 @@
   height: 60px;
   background: var(--lightGrey);
 }
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}

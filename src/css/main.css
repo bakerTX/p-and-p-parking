@@ -2,6 +2,9 @@
   You can use import statements to include partials:
  */
 @import "utilities/normalize.css";
+@import "utilities/bootstrap.min.css";
+@import "utilities/utility.css";
 @import "variables.css";
 @import "components/header.css";
 @import "components/footer.css";
+@import "components/hero.css";
