@@ -7,13 +7,14 @@
   text-transform: uppercase;
   color: var(--primaryTypeColor);
   text-align: center;
+  font-size: 3.5rem;
 }
 
 .hero {
   background-image: url(/img/simon-shim-561304-unsplash.jpg);
   background-size: cover;
   background-position: center;
-  height: calc(90vh - 60px);
+  min-height: calc(80vh - 60px);
   display: flex;
   align-items: center;
   padding: 0 10vw;
@@ -26,4 +27,39 @@
       rgba(37, 37, 70, 0.8)
     ),
     url(/img/simon-shim-561304-unsplash.jpg);
+}
+
+@media (max-width: 992px) {
+  .hero__blurb {
+    font-size: 2rem;
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__blurb {
+    font-size: 1.6rem;
+    text-align: left;
+  }
+}
+
+.blurb__link {
+  color: #fff;
+}
+
+.blurb__link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero__nav {
+  display: flex;
+}
+
+.hero__link {
+  flex-grow: 1;
+  height: 60px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
