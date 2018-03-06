@@ -1,9 +1,20 @@
 {{ define "main" }}
 
-<div class="hero">
-  <h1 class="hero__header">Nice to Meet You</h1>
-  <p class="hero__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos adipisci veniam delectus, voluptatum. Nobis voluptate quaerat commodi laborum doloremque totam atque, sunt sed provident earum sapiente, consequatur iste culpa beatae!</p>
-  <button class="btn hero__button">request a quote</button>
+<div class="hero hero--darken">
+  <h1 class="hero__blurb">{{ .Params.blurb }}</h1>
 </div>
+
+<section class="section">
+  <h2 class="section__header">What We Do</h2>
+  <p class="section__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt deserunt, molestiae quibusdam sint harum, repellendus odio recusandae perferendis deleniti aliquam soluta dolore, voluptatem nobis in error, quia ex natus architecto.</p>
+  <a href="" class="section__link">ABOUT</a>
+  <a href="" class="section__link">SERVICES</a>
+</section>
+
+<section class="section">
+  <h2 class="section__header">Who We Work With</h2>
+  <p class="section__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  <a href="" class="section__link">CLIENTS</a>
+</section>
 
 {{ end }}

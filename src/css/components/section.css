@@ -1,0 +1,15 @@
+.section__header {
+  font-weight: 200;
+}
+
+.section {
+  margin-top: 40px;
+}
+
+.section:nth-child(even) {
+  text-align: right;
+}
+
+.section:last-child {
+  margin-bottom: 40px;
+}

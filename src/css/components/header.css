@@ -1,9 +1,21 @@
 .app__header {
   height: 60px;
-  background: var(--lightGrey);
 }
 
 .header__nav {
   display: flex;
   align-items: center;
+}
+
+.nav__link:first-child {
+  flex-grow: 7;
+  margin-left: 0;
+}
+
+.nav__link {
+  margin: 0 15px;
+}
+
+.nav__link:last-child {
+  margin-right: 0;
 }
