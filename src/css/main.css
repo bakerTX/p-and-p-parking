@@ -5,6 +5,7 @@
 @import "utilities/bootstrap.min.css";
 @import "utilities/utility.css";
 @import "variables.css";
+@import "components/body.css";
 @import "components/header.css";
 @import "components/footer.css";
 @import "components/hero.css";
