@@ -27,15 +27,13 @@
 
 @media (max-width: 992px) {
   .hero__blurb {
-    font-size: 2rem;
-    text-align: left;
+    /* text-align: left; */
   }
 }
 
 @media (max-width: 768px) {
   .hero__blurb {
-    font-size: 1.6rem;
-    text-align: left;
+    /* text-align: left; */
   }
 }
 
