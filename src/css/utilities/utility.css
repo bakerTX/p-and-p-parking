@@ -16,6 +16,10 @@
   font-weight: 600;
 }
 
+.punch-type--dark {
+  color: var(--darkType);
+}
+
 @media (max-width: 992px) {
   .punch-type {
     font-size: 3rem;
