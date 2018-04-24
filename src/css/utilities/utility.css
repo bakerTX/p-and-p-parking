@@ -2,6 +2,10 @@
   height: 100%;
 }
 
+.bg-fill {
+  background: var(--primaryFillColor);
+}
+
 /* undo negative margins from Bootstrap on .row */
 .row {
   margin-left: 0;
