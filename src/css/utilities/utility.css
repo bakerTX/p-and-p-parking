@@ -2,6 +2,10 @@
   height: 100%;
 }
 
+.bg-fill {
+  background: var(--primaryFillColor);
+}
+
 /* undo negative margins from Bootstrap on .row */
 .row {
   margin-left: 0;
@@ -30,4 +34,28 @@
   .punch-type {
     font-size: 2rem;
   }
+}
+
+.has-background-img {
+  background-size: cover;
+  background-position: center;
+}
+
+.background--desforges {
+  background-image: url(/img/desforges_cropped.png);
+  min-height: calc(100vh - var(--headerHeight));
+}
+
+@media (max-width: 992px) {
+  .background--desforges {
+    min-height: 35vh;
+  }
+}
+
+ul {
+  list-style-type: '-';
+}
+
+li {
+  cursor: pointer;
 }
