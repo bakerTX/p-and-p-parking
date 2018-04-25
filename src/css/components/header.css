@@ -1,5 +1,5 @@
 .app__header {
-  height: 120px;
+  height: var(--headerHeight);
 }
 
 .header__nav {
