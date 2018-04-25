@@ -45,3 +45,17 @@
   background-image: url(/img/desforges_cropped.png);
   min-height: calc(100vh - var(--headerHeight));
 }
+
+@media (max-width: 992px) {
+  .background--desforges {
+    min-height: 35vh;
+  }
+}
+
+ul {
+  list-style-type: '-';
+}
+
+li {
+  cursor: pointer;
+}
