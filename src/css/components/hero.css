@@ -25,18 +25,6 @@
     url(/img/simon-shim-561304-unsplash_converted_resized_4.jpg);
 }
 
-@media (max-width: 992px) {
-  .hero__blurb {
-    /* text-align: left; */
-  }
-}
-
-@media (max-width: 768px) {
-  .hero__blurb {
-    /* text-align: left; */
-  }
-}
-
 .blurb__link {
   color: #fff;
 }
@@ -44,18 +32,6 @@
 .blurb__link:hover {
   text-decoration: none;
   color: #fff;
-}
-
-.hero__nav {
-  display: flex;
-}
-
-.hero__link {
-  flex-grow: 1;
-  height: 60px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
 }
 
 .hero__link:first-child {
