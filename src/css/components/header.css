@@ -1,5 +1,5 @@
 .global-header {
-  height: var(--headerHeight);
+  min-height: var(--headerHeight);
 }
 
 .header__nav {
@@ -24,6 +24,10 @@
 
 @media (max-width: 992px) {
   .global-header {
-    height: calc(var(--headerHeight) / 2);
+    min-height: calc(var(--headerHeight) / 2);
   }
+}
+
+.nav-list {
+  list-style-type: none;
 }
