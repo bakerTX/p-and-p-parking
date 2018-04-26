@@ -21,3 +21,9 @@
 .nav__link:last-child {
   margin-right: 0;
 }
+
+@media (max-width: 992px) {
+  .app__header {
+    height: calc(var(--headerHeight) / 2);
+  }
+}
