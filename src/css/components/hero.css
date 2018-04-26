@@ -2,10 +2,6 @@
   font-weight: 200;
 }
 
-.hero__blurb {
-  text-align: center;
-}
-
 .hero {
   background-image: url(/img/simon-shim-561304-unsplash_converted_resized_4.jpg);
   background-size: cover;
@@ -13,7 +9,6 @@
   min-height: calc(80vh - 60px);
   display: flex;
   align-items: center;
-  padding: 0 10vw;
 }
 
 .hero--darken {
@@ -25,18 +20,6 @@
     url(/img/simon-shim-561304-unsplash_converted_resized_4.jpg);
 }
 
-@media (max-width: 992px) {
-  .hero__blurb {
-    /* text-align: left; */
-  }
-}
-
-@media (max-width: 768px) {
-  .hero__blurb {
-    /* text-align: left; */
-  }
-}
-
 .blurb__link {
   color: #fff;
 }
@@ -46,14 +29,14 @@
   color: #fff;
 }
 
-.hero__nav {
-  display: flex;
+.hero__link:first-child {
+  justify-content: flex-start;
 }
 
-.hero__link {
-  flex-grow: 1;
-  height: 60px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
+.hero__link:last-child {
+  justify-content: flex-end;
+}
+
+.hero-nav {
+  min-height: 60px;
 }

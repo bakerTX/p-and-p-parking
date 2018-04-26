@@ -1,5 +1,5 @@
-.app__header {
-  height: var(--headerHeight);
+.global-header {
+  min-height: var(--headerHeight);
 }
 
 .header__nav {
@@ -20,4 +20,14 @@
 
 .nav__link:last-child {
   margin-right: 0;
+}
+
+@media (max-width: 992px) {
+  .global-header {
+    min-height: calc(var(--headerHeight) / 2);
+  }
+}
+
+.nav-list {
+  list-style-type: none;
 }
