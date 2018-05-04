@@ -20,20 +20,20 @@
     url(/img/simon-shim-561304-unsplash_converted_resized_4.jpg);
 }
 
-.blurb__link {
+.hero__link {
   color: #fff;
 }
 
-.blurb__link:hover {
+.hero__link:hover {
   text-decoration: none;
   color: #fff;
 }
 
-.hero__link:first-child {
+.hero-nav__link:first-child {
   justify-content: flex-start;
 }
 
-.hero__link:last-child {
+.hero-nav__link:last-child {
   justify-content: flex-end;
 }
 
