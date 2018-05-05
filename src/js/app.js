@@ -24,7 +24,7 @@ $(window).scroll(function() {
     timeout = setTimeout(function() {
       clearTimeout(timeout);
       timeout = null;
-      if ($(window).scrollTop() >= targetPosition) {
+      if ($(window).scrollTop() >= targetPosition - 50) {
         headerNav.addClass('with--extra-links')
       }
       if ($(window).scrollTop() < targetPosition) {

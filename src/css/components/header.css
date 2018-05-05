@@ -41,6 +41,14 @@
   }
 }
 
-.with--extra-links {
-  background: red;
+.with--extra-links .js-scroll-links {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.js-scroll-links {
+  display: inline-block;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: transform 0.35s, opacity 0.35s;
 }
