@@ -2,6 +2,7 @@ body {
   font-family: var(--bodyType);
   font-size: 18px;
   color: var(--darkType);
+  padding-top: 120px;
 }
 
 a {
@@ -11,4 +12,10 @@ a {
 a:hover {
   color: var(--darkType);
   text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  body {
+    padding-top: 60px;
+  }
 }
