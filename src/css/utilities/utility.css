@@ -12,30 +12,6 @@
   margin-right: 0;
 }
 
-.punch-type {
-  font-family: 'Barlow Condensed', sans-serif;
-  text-transform: uppercase;
-  color: var(--primaryTypeColor);
-  font-size: 70px;
-  font-weight: 600;
-}
-
-.punch-type--dark {
-  color: var(--darkType);
-}
-
-@media (max-width: 992px) {
-  .punch-type {
-    font-size: 3rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .punch-type {
-    font-size: 2rem;
-  }
-}
-
 .has-background-img {
   background-size: cover;
   background-position: center;

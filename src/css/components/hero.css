@@ -29,6 +29,10 @@
   color: #fff;
 }
 
+.hero-nav__link {
+  font-size: var(--subHeaderSize);
+}
+
 .hero-nav__link:first-child {
   justify-content: flex-start;
 }

@@ -1,15 +1,7 @@
-.app__footer {
+.global-footer {
   border-top: 1px solid #bbb;
   background: var(--primaryFillColor);
   color: #fff;
   padding-top: 30px;
   padding-bottom: 15px;
-}
-
-.social__link {
-  background: #fff;
-  width: 25px;
-  height: 25px;
-  border: 1px solid #222;
-  border-radius: 50%;
 }
