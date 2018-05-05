@@ -40,3 +40,7 @@
     padding: 7px 7px;
   }
 }
+
+.with--extra-links {
+  background: red;
+}
