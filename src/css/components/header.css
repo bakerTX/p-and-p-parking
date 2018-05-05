@@ -2,26 +2,6 @@
   min-height: var(--headerHeight);
 }
 
-.header__nav {
-  display: flex;
-  align-items: center;
-}
-
-.nav__link {
-  margin: 0 15px;
-  text-align: right;
-}
-
-.nav__link:first-child {
-  flex-grow: 7;
-  margin-left: 0;
-  text-align: left;
-}
-
-.nav__link:last-child {
-  margin-right: 0;
-}
-
 @media (max-width: 992px) {
   .global-header {
     min-height: calc(var(--headerHeight) / 2);
@@ -30,4 +10,12 @@
 
 .nav-list {
   list-style-type: none;
+}
+
+.link--employee {
+  font-size: 0.8rem;
+}
+
+.link--quote {
+  border: 1px solid #222;
 }
