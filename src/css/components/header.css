@@ -18,4 +18,11 @@
 
 .link--quote {
   border: 1px solid #222;
+  padding: 5px 8px;
+}
+
+@media (max-width: 576px) {
+  .nav__item {
+    margin:8px 0;
+  }
 }

@@ -4,9 +4,10 @@
 @import "/utilities/normalize.css";
 @import "utilities/bootstrap.min.css";
 @import "utilities/utility.css";
+@import "components/body.css";
+@import "utilities/type.css";
 @import "variables.css";
 @import "components/header.css";
 @import "components/footer.css";
 @import "components/hero.css";
 @import "components/section.css";
-@import "components/body.css";

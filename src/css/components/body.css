@@ -1,4 +1,14 @@
 body {
   font-family: var(--bodyType);
   font-size: 18px;
+  color: var(--darkType);
+}
+
+a {
+  color: var(--darkType);
+}
+
+a:hover {
+  color: var(--darkType);
+  text-decoration: none;
 }
